@@ -1,0 +1,49 @@
+<!-- COMENTÁRIO -->
+
+<!DOCTYPE html>
+  <!-- Define a versão do HTML, no caso, a versão 5 -->
+
+<html lang="pt-br"> 
+  <!-- Define o idioma da página, nesse caso, português do Brasil -->
+
+<html>
+
+  <head>
+    <title>Disciplina de Design Web</title>
+    <meta name="author" content="Clara Teodósio"
+      <!-- nome de quem criou a página -->
+    <meta charset= "utf-8">
+      <!-- padroniza os caracteres, faz com que em qualquer computador apareça sempre os mesmos caracteres, principalmente se tiverem acentos -->
+      
+  <head>
+
+  <body>
+    <!-- Desenvolvimento Web:
+         sintaxe, semântica e boas práticas de desenvolvomento -->
+    <!-- tiítlos. parágrafos, tabelas, links, imagens, listas, etc. -->
+    
+    <p>Olá, INFOWEBER's</p>
+      <!-- a tag de "p" representa um parágrafo -->
+
+    <h1>INFOWEB</h1>
+      <!-- a tag de "h1" representa um título de nível 1 (título principal) (existem 6 níveis de títulos) -->
+      <p>Curso técnico integrado em informática pra internet.</p>
+    
+      <h2>Disciplinas:</h2>
+        <p>Português, Matémática, Desing Web, PEOO, Física, Química, Sociologia</p>
+
+      <h2>Professores:</h2>
+        <p>Elizeu, Leonardo, Dani, Gilbert, Jessé, João Maria, Gllauco</p>
+
+      <h2>Formas de ingresso:</h2>
+        <p>Processo seletivo (prova de português, matemática e produção textual)</p>
+
+      <h3>Teste</h3>
+      <h4>Teste</h4>
+      <h5>Teste</h5>
+      <h6>Teste</h6>
+    
+    
+  </body>
+
+</html>
