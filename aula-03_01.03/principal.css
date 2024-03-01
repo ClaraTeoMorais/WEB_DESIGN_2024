@@ -1,0 +1,22 @@
+/* seletor -> nome que fica antes da chave */
+
+body{
+    background-color: lightblue;
+    color: navy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: palegoldenrod;
+}
+
+li{
+    background-color: rgb(214, 245, 255);
+    list-style-position: outside;
+        /* inside -> a bolinha fica dentro do fundo / outside -> a bolinha fica fora do fundo */
+    list-style-type:disc;
+        /* altera o tipo do marcador da lista */
+    list-style: outside disc;
+        /* junta os atributos de positions e type */
+    list-style-image: url(marcador.png);
+}
