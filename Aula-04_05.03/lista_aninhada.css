@@ -1,0 +1,10 @@
+body{
+    background-color: ghostwhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+h1{
+    text-align: center; /* alinhamento do texto */
+    border: 1px dotted black; /* espessura, estilo e cor */
+}
