@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-image: url(bg.svg), url(bg.svg);
+    background-repeat: repeat-y, repeat-x;
+    background-position: center, center;
+    /* background-cover:  */
+
+}
+
+h1{
+    margin-top: 2em; /*em cima*/
+    margin-right: 2em; /*direita*/
+    margin-left: 2em; /*esquerda*/
+    margin-bottom: 2em; /*em baixo*/
+    /* margin = margem */
+}
+
+img{
+    filter: drop-shadow(5px 5px 10px rgba(32, 173, 255, 0.308) )
+}
