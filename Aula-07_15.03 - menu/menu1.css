@@ -1,0 +1,47 @@
+body{
+    background-color: teal;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+p{
+    margin: 1em;
+}
+
+ol{
+    padding: 0;
+    text-align: center;
+    /* padding espçamento (interno) entre a borda (área) e o texto */
+    /* margin - espaçamento externo */
+}
+
+li{
+    display: inline;
+    /* coloca os elementos da lista uma linha */
+}
+
+a{
+    background-color: rgba(121, 255, 255, 0.514);
+    color: white;
+    font-size: 0.8;
+    text-decoration: none;
+    padding: 1em 2em;
+    /* 1º valor, parte de cima e de baixo
+       2º valor: lados */
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: salmon;
+    border-radius: 20px;
+}
+/* fazer um efeito quando o mouse passar sobre */
+
+a:visited{
+    color: grey;
+}
+
+a:active{
+    font-style: italic;
+}
