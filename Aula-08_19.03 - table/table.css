@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+table{
+    width: 70%;
+    margin: 0 auto;
+        /* o auto serve para centralizar nas letarais */
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: #b1c3ff;
+}
+/* odd - impar */
+
+
+tr:nth-child(even){
+    background-color: #92a7ec;
+}
+/* even - par */
