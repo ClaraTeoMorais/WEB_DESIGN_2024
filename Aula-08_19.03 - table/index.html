@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dia do Cuscuz</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <h1>Dia do Cuscuz</h1>
+
+    <table>
+        <caption>Cidades que mais consome cuscuz</caption>
+        <!-- opcional, coloca se o título -->
+
+        <thead>
+            <tr>
+                <th>Cidade</th> 
+                <th>Quilos</th> 
+                <th>Habitantes</th> 
+            </tr>
+        </thead>
+        <!-- <thead> = OPCIONAL / organiza as linhas de cabeçalho -->
+
+        <tbody>
+            <tr>
+                <td>Xique-xique - BA</td>
+                <td>54</td>
+                <td>54.879</td>
+            </tr>
+
+            <tr>
+                <td>Passa e fica - RN</td>
+                <td>52</td>
+                <td>87.658</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Umarizal - RN</td>
+                    <!-- rowspan = mescla COLUNAS -->
+                <td>48</td>
+                <td>65.987</td>
+            </tr>
+
+            <tr>
+                <td>43</td>
+                <td>87.698</td>
+            </tr>
+        </tbody>
+            <!-- <tbody> = OPCIONAL / corpo da tabela -->
+
+        <tfoot>
+            <tr>
+                <td colspan="2">3 cidades</td>
+                    <!-- colspan = transforma a célula em célula mesclada / o número representa a quant de células q vai mesclar / mescla LINHAS -->
+                <td>soma</td>
+            </tr>
+        </tfoot>
+            <!-- <tfoot> = OPCINAL / rodapé -->
+
+    </table>
+    <!-- tabela é para tabular dados, e não para diagrmação -->
+    <!-- <tr> = table roll = linhas da tabela -->
+    <!-- <th> = table head = cabeça/título da tabela; fica em negrito; são os títulos das colunas -->
+    <!-- <td> = table data = dados da tabela -->
+
+</body>
+</html>
