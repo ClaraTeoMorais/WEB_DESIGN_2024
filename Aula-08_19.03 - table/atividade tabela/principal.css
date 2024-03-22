@@ -1,11 +1,27 @@
 body{
-    background-color: ghostwhite;
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
+    text-align: center;
 }
 
 table{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
         /* o auto serve para centralizar nas letarais */
+    padding: 1em;
+    border-collapse: collapse;
+}
+
+td{
+    border: 0.3px rgb(231, 231, 231) solid;
+    padding: 0.6em;
+}
+
+th{
+    font-weight: bold;
+    color: white;
+    background-color: #74DA7F;
+    border: 0.3px rgb(218, 218, 218) solid;
+    padding: 0.6em;
 }
