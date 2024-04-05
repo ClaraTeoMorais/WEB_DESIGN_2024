@@ -1,0 +1,80 @@
+/* o "*" seleciona todas as tags */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+/* o espaço vai formatar o h1 dentro do header */
+header h1{
+    background-color: #1E6C7D;
+    padding: 2em;
+    text-align: center;
+}
+
+header nav{
+    background-color: #125260;
+    padding: 2em;
+}
+
+header li{
+    display: inline-block; /*para colocar um item ao lado do outro*/
+    /* inline -> nao recebe largura e altura, só a parte do texto */
+    /* block -> pode definir uma largura e altura */
+}
+
+header a{
+    color: white;
+}
+
+main{
+    max-width: 70em; /* max - vai adaptar a pág para uma visualização em diferentes dispositivos */
+    margin: 0 auto; /* coloca o bloco no centro quando tem uma largula definida */
+    display: flex; /* vai permitir que os elementos do "main" fiquem um ao lado do outro */
+    flex-wrap: wrap; /* quebra a linha dos textos que estão no bloco */
+}
+
+main section{
+    background-color: #C47969;
+    width: 19.2em;
+    height: 15em;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+footer{
+    background-color: #8db19d;
+    text-align: center;
+    padding: 2em;
+}
+
+/* PÁGINAS INTERNAS */
+
+article{
+    background-color: #C47969;
+    width: 35em;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    min-height: 30em;
+}
+
+aside{
+    background-color: rgb(224, 224, 244);
+    width: 15em;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+figure{
+    float: left;
+}
+
+figure img{
+    margin: 1em 1em 1em 0;
+}
