@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo.png);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    margin-left: 137px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #543A1D;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-left: 137px;
+    background-image: url(topico.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0.48em; /* o primeiro valor é o "x" (esquerda e direita) o segundo é o "y", em uma e em baixo */
+    padding-left: 1em;
+    font-size: 45px;
+    color: #19181D;
+}
+
+p{
+    margin-bottom: 60px;
+    margin-left: 137px;
+    width: 890px; 
+    font-size: 22px;
+}
+
+ul{
+    margin-bottom: 60px;
+    margin-left: 137px;
+    margin-right: 137px;
+}
