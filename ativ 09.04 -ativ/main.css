@@ -10,9 +10,9 @@ body{
 }
 
 h1{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 60px;
-    margin-left: 137px;
+    margin-left: 70px;
     font-size: 100px;
     font-weight: bold;
     color: #543A1D;
@@ -20,7 +20,7 @@ h1{
 
 h2{
     margin-bottom: 20px;
-    margin-left: 137px;
+    margin-left: 70px;
     background-image: url(topico.svg);
     background-repeat: no-repeat;
     background-position: 0 0.48em; /* o primeiro valor é o "x" (esquerda e direita) o segundo é o "y", em uma e em baixo */
@@ -31,13 +31,37 @@ h2{
 
 p{
     margin-bottom: 60px;
-    margin-left: 137px;
+    margin-left: 70px;
     width: 890px; 
     font-size: 22px;
 }
 
 ul{
     margin-bottom: 60px;
-    margin-left: 137px;
-    margin-right: 137px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+li{
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: 237px;
+    background-color: #A5804D;
+    border-radius: 14px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-right: 36px;
+    filter: drop-shadow(5px 5px 11px rgba(0, 0, 0, 25%));
+}
+
+address{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #f5f5f5;
+    border-top: 2px dashed #f5f5f5;
+    width: 840px;
+    margin: 0 auto;
 }
