@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg.png);
+}
+
+header{
+    display: flex;
+    margin-top: 32px;
+}
+
+header img{
+    float: left;
+}
+
+header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    color: white;
+    line-height: 1em;
+    margin-left: 40%;
+    width: 20%;
+    margin-right: 30%;
+}
+
+header span.nome{
+    font-size: 0.8em;
+    display: inline-block;
+    padding-top: 1.5em;
+}
+
+header span.sub{
+    font-size: 0.5em;
+}
+
+header nav li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+main ul{
+    text-decoration: none;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main li{
+    display: inline-block;
+    margin: 2.5em;
+    border: 1.5px solid black;
+}
+
+footer ol{
+    background-color: #0F572C;
+    color: white;
+    border-radius: 2em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer li{
+    display: inline;
+}
+
