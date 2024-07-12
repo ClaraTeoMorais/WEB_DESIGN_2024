@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    max-width: 50em;
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0.5 #686868;
+}
+
+/* selecionando o input do tipo image */
+input[type="image"]{
+    width: 16px;
+    vertical-align: middle;
+}
+
+label{
+    display:inline-block;
+    width: 7em;
+    margin-bottom: 1em;
+}
+
