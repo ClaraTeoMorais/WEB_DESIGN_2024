@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete</title>
+</head>
+
+<body>
+    <h1>ENQUETE</h1>
+
+    <form action="dadosenviados.html">
+        <p>Qual a progração para o fim de semana?</p>
+
+        <label><input type="checkbox" name="programacao" value="cinema">Cinema</label><br>
+        <!-- CHECKBOX -> pode selecionar mais de uma opção / rebece informação mas não é texto -->
+        <label><input type="checkbox" name="programacao" value="teatro">Teatro</label><br>
+        <label><input type="checkbox" name="programacao" value="netflix">Netflix</label><br>
+        <label><input type="checkbox" name="programacao" value="bike">Bike no parque</label><br>
+        <label><input type="checkbox" name="programacao" value="praia">Praia</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="dadosenviados.html">
+        <p>Qual a área você mais se identifica?</p>
+        <label><input type="radio" name="area" value="design"> Design</label><br>
+        <label><input type="radio" name="area" value="programacao"> Programção</label><br>
+        <label><input type="radio" name="area" value="redes"> Redes</label><br>
+        <label><input type="radio" name="area" value="banco"> Banco de dados</label><br>
+        <!-- name precisa ter o mesmo nome em todos -->
+        <!-- RADIO -> pode selecionar apenas uma opção -->
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- tanto no CHECKBOX como no RADIO precisa ter o "name" e o "value" -->
+
+    
+</body>
+</html>
