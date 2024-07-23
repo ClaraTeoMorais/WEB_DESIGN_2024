@@ -18,12 +18,43 @@ header h1{
 }
 
 main{
-    max-width: 80em;
+    max-width: 70em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 3em auto;
 }
 
 main section{
-    
+    width: 200px;
+    height: 280px;
+    background-color: white;
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main section p.data{
+    color: #C3C3C3;
+    font-size: 13px;
+    text-align: right;
+    width: 200px;
+    margin-bottom: 7px;
+}
+
+main section img{
+    margin-bottom: 27px;
+}
+
+main section h2{
+    color: #005C85;
+    font-size: 24px;
+    margin-bottom: 19px;
+    font-weight: normal;
+}
+
+main section p{
+    color: black;
+    font-size: 12px;
+    width: 60%;
 }
