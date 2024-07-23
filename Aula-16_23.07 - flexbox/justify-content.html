@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FLEXBOXES - justify-content</title>
+
+    <style>
+        div.container{
+            max-width: 80em;
+            margin: 2em auto;
+            padding: 2em;
+            border: 1px solid grey;
+            display: flex;
+            /* o "display: flex" ficará sempre na div pai, a div container, a div q é um bloco */
+            flex-wrap: wrap; /* quebra de linha - vai fazer com que os filhos tenham uma quebra de linha dentro do container quando chegar na largura máxima do container/div */
+            /* justify-content: center; centraliza as divs filhas dentro da div pai/div container */
+            /* justify-content: flex-end / flex-start; deixa as divs filhas alinhadas a esquerda ou direita, respectivamente (sem espaço entre as divs) */
+            justify-content: space-between; /* vai deixar a primeira div filha colada a esquerda do bloco, e a última colada a esquerda, depois irá deixar o espaçamento
+                                               entre as divs que sobraram igual */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+
+        }
+
+        div.container div{
+            width: 15em;
+
+            background-color: beige;
+            padding: 1em;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- agrupar, conter informações, dividir área, NÃO tem valor SEMÂNTICO -->
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FLEXBOXES - gap</title>
+
+    <style>
+        div.container{
+            max-width: 70em;
+            margin: 2em auto;
+            padding: 2em;
+            border: 1px solid grey;
+            display: flex;
+            /* o "display: flex" ficará sempre na div pai, a div container, a div q é um bloco */
+            gap: 5em; /*funciona também para outros atributos (ex: flex, grid)*/
+                      /* espaçamento entre eles / vai acabar alterando o tamanho das divs */
+        }
+
+        div.container div{
+            width: 15em;
+
+            background-color: beige;
+            padding: 1em;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- agrupar, conter informações, dividir área, NÃO tem valor SEMÂNTICO -->
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+    </div>
+
+</body>
+</html>

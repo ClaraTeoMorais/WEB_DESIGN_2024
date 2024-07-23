@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FLEXBOXES - justify-content</title>
+
+    <style>
+        div.container{
+            max-width: 70em;
+            margin: 2em auto;
+            padding: 2em;
+            border: 1px solid grey;
+            display: flex;
+            /* o "display: flex" ficará sempre na div pai, a div container, a div q é um bloco */
+            flex-direction: row-reverse;
+        }
+
+        div.container div{
+            width: 15em;
+
+            background-color: beige;
+            padding: 1em;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- agrupar, conter informações, dividir área, NÃO tem valor SEMÂNTICO -->
+        <div>
+            <p>1 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>2 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>3 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+
+        <div>
+            <p>4 - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur accusantium, libero natus officiis labore sit cum! Porro vitae harum, minima, nobis quod perferendis consequuntur ducimus quas facere quibusdam, placeat optio!</p>
+        </div>
+    </div>
+
+</body>
+</html>
