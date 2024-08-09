@@ -152,4 +152,6 @@ p{
 
 .patrocinadores img{
     margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 0.6em rgba(97, 97, 97, 0.5);
 }
