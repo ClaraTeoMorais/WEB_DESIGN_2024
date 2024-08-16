@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+main p{
+    margin: 5em 1em;
+}
