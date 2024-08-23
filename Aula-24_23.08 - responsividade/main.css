@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+button{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: coral;
+    }
+
+    p{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color: darkgrey;
+    }
+
+    ul{
+        display: none;
+    }
+
+    button{
+        display: block;
+    }
+}
