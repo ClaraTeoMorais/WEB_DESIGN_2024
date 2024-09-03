@@ -1,16 +1,222 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
+
+/* HEADER */
+header{
+    background-image: linear-gradient(to left,#7292A6, #224459);
+    color: white;
+    height: 7em;
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+header p{
+    font-size: 1.5em;
+}
+
+
+/* MAIN */
+main{
+    display: grid;
+    grid-template-areas: 
+        "nav tex pgm pgm i_a"
+        "nav lst ins i_n i_h"
+        "nav i_l ins org org";
+    gap: 1em;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1fr 1fr;
+}
+
+div, section{
+    padding: 1.6em;
+    background-color: #ECECEC;
+}
+
+h2{
+    padding-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav a{
+    color: #32738B;
+    font-size: 2.2em;
+}
+
+nav li{
+    margin-bottom: 3em;
+}
+
+.texto p{
+    line-height: 200%;
+}
+
+strong{
+    color: #32738B;
+}
+
+.texto a{
+    border: 1.8px solid #32738B;
+    color: #32738B;
+    padding: 2px 5px;
+}
+
+.programacao table{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.programacao td{
+    border: 1px solid white;
+    padding: 2px 3.8em;
+}
+
+.coluna1, .coluna2{
+    width: 10em;
+}
+
+.coluna3{
+    width: 15em;
+}
+
+.texto_foto{
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.lista ul{
+    margin-left: 1em;
+}
+
+.lista li{
+    list-style-type: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 200%;
+}
+
+.inscricao form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#nome, #email, #celular{
+    width: 20em;
+    border: 2px solid #696969;
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+}
+
+#enviar{
+    color: #696969;
+    background-color: #202126;
+    padding: 0.8em 5em;
+    border: none;
+    margin-top: 1.5em;
+    margin-bottom: 5em;
+}
+
+.organizacao ol{
+    margin-left: 1em;
+
+}
+
+.organizacao li{
+    list-style-type: disc;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #224459;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    height: 10em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* GRID AREA */
 nav{
     grid-area: nav;
+    background-color: #C5D1D9 ;
+    padding: 1.6em 2em;
 }
 
-.text{
+.texto{
     grid-area: tex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.programacao{
+    grid-area: pgm;
+}
+
+.img_amanda{
+    grid-area: i_a;
+    background-image: url(layout/palestrantes/amanda.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 2em 0;
+}
+
+.lista{
+    grid-area: lst;
+}
+
+.inscricao{
+    grid-area: ins;
+}
+
+.img_natalia{
+    grid-area: i_n;
+    background-image: url(layout/palestrantes/georgia.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 2em 0;
+}
+
+.img_henrique{
+    grid-area: i_h;
+    background-image: url(layout/palestrantes/henrique.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 2em 0;
+}
+
+.img_larissa{
+    grid-area: i_l;
+    background-image: url(layout/palestrantes/ellen.jpg);
+    background-size: cover;
+    filter: saturate(0);
+    padding: 2em 0;
+}
+
+.organizacao{
+    grid-area: org;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 200%;
 }

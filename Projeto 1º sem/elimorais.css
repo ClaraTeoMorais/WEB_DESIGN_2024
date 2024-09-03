@@ -8,6 +8,22 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+header{
+  display: flex;
+}
+
+
+/* GERAIS */
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
 
 /* FONTES:
 

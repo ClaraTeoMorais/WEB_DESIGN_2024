@@ -6,7 +6,12 @@
     <title>SHIFT</title>
     <link rel="stylesheet" href="shift.css">
 
-    <!-- filter css saturate -->
+    <!-- filter css saturate
+         marcação de main
+         n tem largura 
+         imagens de background 
+         plano de fundo transparente -> rgba
+         âncora (a) p/ ler a mais  -->
 </head>
 <body>
     <header>
@@ -31,16 +36,16 @@
                 o te <strong>enim</strong> cillum ad
                 aliquip, <strong>incididunt</strong>.
             </p>
-            <p><a>Ler mais</a></p>
+            <p><a href="ler_mais.html">Ler mais</a></p>
         </div>
 
         <section class="programacao">
             <h2>Programação</h2>
             <table>
                 <tr>
-                    <td rowspan="2">Dia<br>03/06</td>
-                    <td>08:00</td>
-                    <td>Abertura</td>
+                    <td rowspan="2" class="coluna1">Dia<br>03/06</td>
+                    <td class="coluna2">08:00</td>
+                    <td class="coluna3">Abertura</td>
                 </tr>
                 <tr>
                     <td>11:00</td>
@@ -49,7 +54,7 @@
                 <tr>
                     <td rowspan="2">Dia<br>04/06</td>
                     <td>08:00</td>
-                    <td>Palestra de Andreu Gurgel</td>
+                    <td>Palestra de Andrei Gurgel</td>
                 </tr>
                 <tr>
                     <td>11:00</td>
@@ -59,7 +64,7 @@
         </section>
 
         <div class="img_amanda">
-            <p>Amanda Freire</p>
+            <p class="texto_foto">Amanda Freire</p>
         </div>
 
         <div class="lista">
@@ -78,21 +83,21 @@
                 <label><input type="text" id="nome" placeholder="Nome"></label><br>
                 <label><input type="email" id="email" placeholder="E-mail"></label><br>
                 <label><input type="tel" id="celular" placeholder="Celular"></label><br>
-                <label><input type="checkbox" value="inscricao" name="aluno">Aluno do IF</label><br>
-                <input type="submit" value="Enviar">
+                <label><input type="checkbox" value="inscricao" name="aluno"> Aluno do IF</label><br>
+                <input type="submit" value="Enviar" id="enviar">
             </form>
         </section>
 
         <div class="img_natalia">
-            <p>Natália Lima</p>
+            <p class="texto_foto">Natália Lima</p>
         </div>
 
         <div class="img_henrique">
-            <p>Henrique Almeida</p>
+            <p class="texto_foto">Henrique Almeida</p>
         </div>
 
         <div class="img_larissa">
-            <p>Larissa Fernandes</p>
+            <p class="texto_foto">Larissa Fernandes</p>
         </div>
 
         <section class="organizacao">
