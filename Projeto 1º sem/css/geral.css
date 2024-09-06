@@ -5,6 +5,8 @@
 /* #BF9169 */
 /* #8C7530 */
 
+/* url(../pasta/xxx.png) -> colocar imagem de background*/
+
 *{
   margin: 0;
   padding: 0;
@@ -85,6 +87,7 @@ h2{
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 li{
