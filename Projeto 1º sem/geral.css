@@ -1,21 +1,95 @@
+/* CORES: */
+/* #F2F0F0 */
+/* #D9CCC1 */
+/* #BFAB93 */
+/* #BF9169 */
+/* #8C7530 */
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #F2F0F0;
 }
 
+/* HEADER */
 header{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4em;
+  padding-top: 2em;
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+header a{
+  font-style: italic;
+  font-weight: 100;
+  color: #F2F0F0;
+  font-size: 16px;
+}
+
+.menu{
+  background-color: #BF9169;
+  border-radius: 3em;
+  text-align: center;
+}
+
+.menu ul{
+  padding: 20px;
+}
+
+.menu li{
+  padding: 60px;
+}
+
+.negrito_menu{
+  font-weight: 400;
+}
+
+header svg{
+  color: #8C7530;
+  margin-left: 15px;
+}
+
+
+/* FOOTER */
+footer{
+  background-color: #8C7530;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  margin-top: 0;
+}
+
+footer nav{
+  margin-left: 3em;
+}
+
+footer svg{
+  color: #BFAB93;
+  margin-left: 25px;
 }
 
 
 /* GERAIS */
+h2{
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+
 li{
   list-style-type: none;
+  display: inline;
 }
 
 a{
