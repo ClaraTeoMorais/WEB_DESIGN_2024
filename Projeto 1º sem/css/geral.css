@@ -60,8 +60,21 @@ header svg{
   margin-left: 15px;
 }
 
+#header_responsivo{
+  display: none;
+}
+
 
 /* HEADER - RESPONSIVO */
+@media screen and (max-width:500px){
+  header{
+    display: none;
+  }
+  #header_responsivo{
+    display: contents;
+  }
+}
+
 
 
 
@@ -119,7 +132,7 @@ PLAYFAIR DISPLAY
   font-style: normal;
 }
 
-ROBOTO 
+ROBOTO
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
