@@ -18,7 +18,7 @@ body{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   background-image: url(../imagens/backgroung.svg);
-  background-repeat: repeat-y;
+  /* background-repeat: repeat-y, repeat-x; */
 }
 
 h2{
@@ -86,7 +86,7 @@ header svg{
 
 
 /* HEADER - RESPONSIVO */
-@media screen and (max-width:500px){
+@media screen and (max-width:1200px){
   header{
     display: none;
   }
@@ -97,15 +97,42 @@ header svg{
   button{
     border: none;
   }
-  #modal{
+  #caixa_menu{
     background-color: #BF9169;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    padding: 3em;
+    border-radius: 0 60px 60px 0;
   }
-  #modal svg{
-    color: #F2F0F0;
+  .menu_responsivo a{
+    font-size: 22px;
+    font-weight: 300;
   }
-  #modal li{
+  .menu_responsivo li{
+    margin-bottom: 1.5em;
     list-style-type: none;
+    display: block;
   }
+  #botao_container{
+    display: flex;
+    justify-content: end;
+  }
+  #fechar_menu{
+    background-color: #BF9169;
+    color: #F2F0F0;
+    font-size: 25px;
+  }
+  #caixa_menu svg{
+    color: #F2F0F0;
+    margin-left: 0;
+    margin-top: 1.5em;
+    margin-right: 1em;
+  }
+
 }
 
 
