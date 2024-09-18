@@ -28,14 +28,14 @@
     align-items: center;
 }
 #cards_maiores section{
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 .card_principal{
     background-color: #BFAB93;
     border-radius: 40px;
     width: 634.5px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     box-shadow: 5px 15px 31.6px rgba(0, 0, 0, 0.16);
 }
 .card_principal img{
@@ -61,20 +61,30 @@
     padding-bottom: 30px;
     color: #f2f0f0b6;
 }
+.blog > figure{
+    text-align: center;
+    margin-bottom: 60px;
+}
 .card_position{
-    /* position: absolute; */
+    position: absolute;
     width: 550px;
+    opacity: 80%;
 }
 .card_position h3{
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card_position p{
+    padding-bottom: 20px;
 }
 #c_esquerda{
-    top: 16em;
-    left: -10em;
+    top: 18em;
+    left: -8em;
 }
 #c_direita{
-    top: 17em;
-    right: -10em;
+    top: 19em;
+    right: -8em;
 }
 #container{
     display: flex;
@@ -124,6 +134,49 @@ a{
     color: black;
 }
 
+@media screen and (max-width: 1630px){
+    #c_esquerda{
+        top: 18em;
+        left: -15em;
+    }
+    #c_direita{
+        top: 19em;
+        right: -15em;
+    }
+}
+@media screen and (max-width: 1400px){
+    #c_esquerda{
+        top: 18em;
+        left: -20em;
+    }
+    #c_direita{
+        top: 19em;
+        right: -20em;
+    }
+}
+@media screen and (max-width: 1200px){
+    #c_esquerda{
+        top: 18em;
+        left: -25em;
+    }
+    #c_direita{
+        top: 19em;
+        right: -25em;
+    }
+}
+@media screen and (max-width: 1020px){
+    .card_position{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .blog button{
+        display: none;
+    }
+    #card_principal{
+        width: 550px;
+    }
+}
 /* TÉRMINO ALTERAÇÃO */
 
 

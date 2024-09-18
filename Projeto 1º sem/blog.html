@@ -88,23 +88,35 @@
         </div>
     </header>
 
-    <main>
+    <main class="blog">
         <h2>BLOG</h2>
 
         <!-- ALTERAÇÃO FOI FEITA AQUI!! -->
 
         <!-- CARDS PRINCIPAIS -->
         <div id="cards_maiores">
-            <figure><img src="imagens/p3_blog/seta_esquerda.svg" alt="Seta virada para a esquerda"></figure>
-            <section class="card_principal">
-                <figure><a href="#"><img src="imagens/p3_blog/cards/card1.png" alt="Mulher em um consultório de psicologia"></a></figure>
+            <button>
+                <figure><img src="imagens/p3_blog/seta_esquerda.svg" alt="Seta virada para a esquerda"></figure>
+            </button>
+            <section class="card_principal">                
+                <a href="#">
+                    <picture>
+                        <source srcset="imagens/p3_blog/cards/card1.png" media="(min-width:800px)">
+                        <img src="imagens/p3_blog/cards/card1_550.png" alt="Mulher em um consultório de psicologia">
+                    </picture>
+                </a>
                 <h3><a href="#">Por que fazer terapia?</a></h3>
                 <p><a href="#">Clique para saber mais!</a></p>
             </section>
-            <figure><img src="imagens/p3_blog/seta_direita.svg" alt="Seta virada para a direita"></figure>
+            <button>
+                <figure><img src="imagens/p3_blog/seta_direita.svg" alt="Seta virada para a direita"></figure>
+            </button>
         </div>
         
-
+        <figure>
+            <img src="imagens/p3_blog/bolinhas.svg" alt="Bolinhas">
+        </figure>
+        
         <section class="card_principal card_position" id="c_esquerda">
             <figure><a href="#"><img src="imagens/p3_blog/cards/card2.png" alt="Família em um consultório de psicologia"></a></figure>
             <h3><a href="#">Terapia familiar: como funciona e para quem é indicada?</a></h3>

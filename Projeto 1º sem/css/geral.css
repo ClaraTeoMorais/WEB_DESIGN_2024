@@ -33,6 +33,14 @@ a{
   text-decoration: none;
 }
 
+/* ALTERAÇAO COMEÇA */
+button{
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+/* ALTERAÇAO TERMINA */
+
 
 /* HEADER */
 header{
