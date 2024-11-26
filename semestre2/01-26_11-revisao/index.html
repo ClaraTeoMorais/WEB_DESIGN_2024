@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Revisão</title>
+
+    <style>
+        main{
+            display: flex;
+            /* display FLEX: terá outras configurações extras que o inline não tem */
+            /* display INLINE: label, âncora, img, negrito, spam - não consegue formatar altura e largura*/
+            /* display BLOCK: ocupa a largura toda */
+            /* display INLINE-BLOCK */
+            flex-wrap: wrap;
+            gap: 1em; /* pode ser utilizado somente em flex e grid */
+        }
+        main div{
+            border: 1px solid rgb(26, 26, 71);
+            background-color: 1px solid rgb(62, 62, 158);
+            width: 7em;
+            height: 7em;
+            /* margin: 0.5em; */
+            box-shadow: 0 0 0.5em gray;
+            box-sizing: border-box;
+                /* não vai deixar que o padding (espaçamento interno) altere o tamanho */
+            transition-duration: 200ms;  /* duração da transição (ms = milisegundo) */
+            transition-timing-function: ease-in; /* estilo da transição / w3schools: tutoriais */
+            /* transition-property: background-color, transform, opacity;  propriendades da transição */
+        }
+        main div:hover{
+            cursor: pointer;
+            background-color: aquamarine;
+            transform: scale(1.1);
+            opacity: 0.5;
+            transition-duration: 200ms;
+        }
+        div.modal{
+            width: 20em;
+            height: 20em;
+            background-color: indigo;
+            position: absolute;
+            top: 10em;
+            left: 30em;
+            color: white;
+            padding: 5em;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- article = conteúdo principal -->
+    <!-- aside = conteúdo relacionado ao conteúdo principal -->
+
+    <div class="modal" id="id">
+        <!-- modal pode usar em mais de uma tag, já o id não -->
+        <p>Você permite <i>coockies</i>?</p>
+    </div>
+
+
+    <main>
+        <div><!-- não tem valor semântico --></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+    
+</body>
+</html>
