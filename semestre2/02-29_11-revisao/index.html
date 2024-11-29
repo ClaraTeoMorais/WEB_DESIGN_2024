@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Revisão</title>
+    <style>
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em ;
+        }
+        main div{
+            width: 7em;
+            height: 7em;
+            border: 1px solid gray;
+            background-color: teal;
+            box-shadow: 0 0 0.3em 0 rgb(136, 136, 136);
+            box-sizing: border-box;
+            padding: 2em;
+            transition-timing-function: ease-in;
+            transition-duration: 200ms;            
+        }
+        main div:hover{
+            cursor: pointer;
+            background-color: yellow;
+            opacity: 0.3;
+            transform: scale(1.5);
+            border-radius: 100%;
+        }
+        div.modal{
+            width: 10em;
+            height: 10em;
+            background-color: tomato;
+            position: absolute;
+            top: 10em;
+            left: 30em;
+            z-index: 2;
+        }
+        header{
+            display: grid;
+            grid-template-areas: 
+            "a b"
+            "a c";
+        }
+        header h1{
+            grid-area: a;
+            background-color: lawngreen;
+        }
+        header p:nth-child(2){
+            grid-area: b;
+            background-color: lightblue;
+        }
+        header p:nth-child(3){
+            grid-area: c;
+            background-color: lightsalmon;
+        }
+        @media screen and (max-width:768px ){ /* RESPONSIVIDADE */
+            body{
+                background-color: chartreuse;
+            }
+            header{
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="modal vermelho destaque">
+        <p>Você aceita os <em>cookies</em>?</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias, magnam laboriosam nostrum nihil aspernatur. Ea dolore omnis doloremque at laborum placeat cum porro necessitatibus quae, quibusdam nulla voluptatem sit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias, magnam laboriosam nostrum nihil aspernatur. Ea dolore omnis doloremque at laborum placeat cum porro necessitatibus quae, quibusdam nulla voluptatem sit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestias, magnam laboriosam nostrum nihil aspernatur. Ea dolore omnis doloremque at laborum placeat cum porro necessitatibus quae, quibusdam nulla voluptatem sit.</p>
+    <header>
+        <h1>IFRN</h1>
+        <p>teste 1</p>
+        <p>teste 2</p>
+    </header>
+    <main>
+        <div class="destaque azul negrito">Renato</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPOTEC</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste animi sapiente suscipit atque vel ratione eaque maxime quo, in, veritatis impedit, porro doloribus deleniti unde veniam autem possimus voluptas debitis.</p>
+    
+    <script>
+        document.write("Olá, mundo!")
+    </script>
+
+    <p id="js">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste animi sapiente suscipit atque vel ratione eaque maxime quo, in, veritatis impedit, porro doloribus deleniti unde veniam autem possimus voluptas debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste animi sapiente suscipit atque vel ratione eaque maxime quo, in, veritatis impedit, porro doloribus deleniti unde veniam autem possimus voluptas debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste animi sapiente suscipit atque vel ratione eaque maxime quo, in, veritatis impedit, porro doloribus deleniti unde veniam autem possimus voluptas debitis.</p>
+
+    <button onclick="document.getElementById('js').style.color='blue'">Mudar</button>
+
+    <script>
+        // alert(2+2)
+        // window.confirm("Você aceita cookies?");
+        // window.prompt("Pergunta","Resposta")
+        var cor = window.prompt("Qual cor você quer no background?", "red")
+        console.log("OLÁ MUNDO DO CONSOLE!"+cor)
+        document.getElementById("js").innerHTML = "Olá, mundo!!!"
+        // document.getElementById("js").style.color = "blue"
+        document.getElementById("js").style.backgroundColor = cor;
+    </script>
+</body>
+</html>
